@@ -1,0 +1,25 @@
+body,
+h1,
+h2,
+h3,
+p,
+ul,
+li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos generales */
+body {
+    font-family: 'Signika', sans-serif;
+    font-weight: bold;
+    background-color: #f7f7f7;
+    color: #333;
+}
+
+@import './sections/header';
+
+@import './sections/section';
+
+@import './sections/footer';
+
