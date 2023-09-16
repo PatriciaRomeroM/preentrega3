@@ -17,6 +17,11 @@ body {
     color: #333;
 }
 
+iframe {
+width: 100%;
+}
+
+
 @import './sections/header';
 
 @import './sections/section';

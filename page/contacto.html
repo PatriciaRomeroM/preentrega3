@@ -4,18 +4,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ELIXIR | INICIO </title>
+    <title>ELIXIR | Bikinis</title>
     <link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/headers/">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="../css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
-        href="https://fonts.googleapis.com/css2?family=Caprasimo&family=DM+Serif+Display&family=Poppins:ital,wght@0,200;0,
-300;0,400;1,300&family=Roboto:ital,wght@0,300;0,400;0,500;1,300;1,500&family=Rubik:wght@400;500&
-family=Signika:wght@300;600;700&display=swap"
-        rel="stylesheet">
+    href="https://fonts.googleapis.com/css2?family=Caprasimo&family=DM+Serif+Display&family=Poppins:ital,wght@0,200;0,300;0,400;1,300&family=Roboto:ital,wght@0,300;0,400;0,500;1,300;1,500&family=Rubik:wght@400;500&family=Signika:wght@300;600;700&display=swap"
+    rel="stylesheet">
 </head>
 
 <body>
@@ -30,6 +28,7 @@ family=Signika:wght@300;600;700&display=swap"
                     <li><a href="../index.html" class="nav-link px-2 text-white">Inicio</a></li>
                     <li><a href="bikinis.html" class="nav-link px-2 text-white">Bikinis</a></li>
                     <li><a href="ropaDeportiva.html" class="nav-link px-2 text-white">Ropa Deportiva</a></li>
+                    <li><a href="accesorios.html" class="nav-link px-2 text-white">Accesorios</a></li>
                     <li><a href="contacto.html" class="nav-link px-2 text-white">Contacto</a></li>
                 </ul>
 
@@ -46,7 +45,81 @@ family=Signika:wght@300;600;700&display=swap"
         </div>
     </header>
 
-    <h1> Pagina en construcción </h1>
+    <fieldset>
+
+        <legend> Formulario de contacto </legend>
+        <form action="#" method="post">
+            <div>
+                <label for="email"> Email: </label>
+                <input type="email" placeholder="ingrese su mail" required>
+            </div>
+
+            <div>
+                <label for="numero"> Numero de celular: </label>
+                <input type="number" placeholder="ingrese numero de celular">
+            </div>
+
+            <div>
+                <label>Indique motivo de contacto</label>
+            </div>
+
+            <div>
+                <input type="radio" value="Opción 1" name="option">
+                <label for="radio1">Consulta</label>
+            </div>
+
+            <div>
+                <input type="radio" value="Opción 2" name="option">
+                <label for="radio2">Solicitud</label>
+            </div>
+
+            <div>
+                <input type="radio" value="Opción 3" name="option">
+                <label for="radio3">Reclamo</label>
+            </div>
+
+            <div>
+                <label>¿Por que medio prefieres que nos contactemos?</label>
+                <label for="option1">Email</label>
+                <input type="checkbox">
+                <label for="option2">Llamada telefonica</label>
+                <input type="checkbox">
+                <label for="option3">WhatsApp</label>
+                <input type="checkbox">
+            </div>
+
+            <div>
+                <label for="dropdown">Elige tu smartphone:</label>
+                <select>
+                    <option>Seleccione aquí</option>
+                    <option value="opcion 1">CABA</option>
+                    <option value="opcion 2">GBA</option>
+                    <option value="opcion 3">Interior del pais</option>
+                </select>
+            </div>
+
+            <div>
+                <label for="fieldset"> Adjuntar archivos </label>
+                <input type="file" </div>
+
+                <div>
+                    <div>
+                        <label for="textarea">Escribir comentario:</label>
+                    </div>
+                    <textarea cols="30" rows="10" placeholder="Escriba aquí"></textarea>
+                </div>
+                <button type="reset">Resetear</button>
+                <button type="submit">Enviar</button>
+
+
+        </form>
+
+    </fieldset>
+
+    <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4582.347612069104!2d-58.40039858361124!3d-34.589125239132784!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccaa290012ce5%3A0xd5bb82a0545d9628!2sRecoleta%20Urban%20Mall!5e0!3m2!1ses-419!2sar!4v1694822372238!5m2!1ses-419!2sar"
+        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"></iframe>
 
     <footer>
         <p>&copy; 2023 ElixirFit Todos los derechos reservados.</p>
