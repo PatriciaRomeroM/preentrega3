@@ -17,7 +17,7 @@
 </head>
 
 <body>
-    <header class="p-3 bg-dark text-white">
+    <header class="p-3 bg-orange text-white">
         <div class="container">
             <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
                 <div class="logo">
@@ -46,74 +46,64 @@
     </header>
 
     <fieldset>
-
-        <legend> Formulario de contacto </legend>
-        <form action="#" method="post">
-            <div>
-                <label for="email"> Email: </label>
-                <input type="email" placeholder="ingrese su mail" required>
-            </div>
-
-            <div>
-                <label for="numero"> Numero de celular: </label>
-                <input type="number" placeholder="ingrese numero de celular">
-            </div>
-
-            <div>
-                <label>Indique motivo de contacto</label>
-            </div>
-
-            <div>
-                <input type="radio" value="Opción 1" name="option">
-                <label for="radio1">Consulta</label>
-            </div>
-
-            <div>
-                <input type="radio" value="Opción 2" name="option">
-                <label for="radio2">Solicitud</label>
-            </div>
-
-            <div>
-                <input type="radio" value="Opción 3" name="option">
-                <label for="radio3">Reclamo</label>
-            </div>
-
-            <div>
-                <label>¿Por que medio prefieres que nos contactemos?</label>
-                <label for="option1">Email</label>
-                <input type="checkbox">
-                <label for="option2">Llamada telefonica</label>
-                <input type="checkbox">
-                <label for="option3">WhatsApp</label>
-                <input type="checkbox">
-            </div>
-
-            <div>
-                <label for="dropdown">Ubicacion:</label>
-                <select>
-                    <option>Seleccione aquí</option>
-                    <option value="opcion 1">CABA</option>
-                    <option value="opcion 2">GBA</option>
-                    <option value="opcion 3">Interior del pais</option>
-                </select>
-            </div>
-
-            <div>
-                <label for="fieldset"> Adjuntar archivos </label>
-                <input type="file" </div>
-
+        <div class="container mt-5 d-flex justify-content-center align-items-center">
+            
+            <form action="#" method="post">
                 <div>
-                    <div>
-                        <label for="textarea">Escribir comentario:</label>
-                    </div>
-                    <textarea cols="30" rows="10" placeholder="Escriba aquí"></textarea>
+                    <label class="mx-auto" style="width: 200px for="email"> Email: </label>
+                    <input type="email" placeholder="ingrese su mail" required>
                 </div>
-                <button type="reset">Resetear</button>
-                <button type="submit">Enviar</button>
+                <div>
+                    <label for="numero"> Numero de celular: </label>
+                    <input type="number" placeholder="ingrese numero de celular">
+                </div>
+                <div>
+                    <label>Indique motivo de contacto</label>
+                </div>
+                <div>
+                    <input type="radio" value="Opción 1" name="option">
+                    <label for="radio1">Consulta</label>
+                </div>
+                <div>
+                    <input type="radio" value="Opción 2" name="option">
+                    <label for="radio2">Solicitud</label>
+                </div>
+                <div>
+                    <input type="radio" value="Opción 3" name="option">
+                    <label for="radio3">Reclamo</label>
+                </div>
+                <div>
+                    <label>¿Por que medio prefieres que nos contactemos?</label>
+                    <label for="option1">Email</label>
+                    <input type="checkbox">
+                    <label for="option2">Llamada telefonica</label>
+                    <input type="checkbox">
+                    <label for="option3">WhatsApp</label>
+                    <input type="checkbox">
+                </div>
+                <div>
+                    <label  for="dropdown">Ubicacion:</label>
+                    <select>
+                        <option>Seleccione aquí</option>
+                        <option value="opcion 1">CABA</option>
+                        <option value="opcion 2">GBA</option>
+                        <option value="opcion 3">Interior del pais</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="fieldset"> Adjuntar archivos </label>
+                    <input type="file" </div>
+                    <div>
+                        <div>
+                            <label for="textarea">Escribir comentario:</label>
+                        </div>
+                        <textarea cols="30" rows="10" placeholder="Escriba aquí"></textarea>
+                    </div>
+                    <button type="reset">Resetear</button>
+                    <button type="submit">Enviar</button>
+            </form>
 
-
-        </form>
-
+        </div>
     </fieldset>
 
     <iframe

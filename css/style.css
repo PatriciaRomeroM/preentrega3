@@ -1,13 +1,18 @@
 @charset "UTF-8";
 body,
 h1,
-h2,
 h3,
 p,
 ul,
 li {
   margin: 0;
   padding: 0; }
+
+.titulo {
+  font-size: 20px; }
+
+h2 {
+  margin-left: 30px; }
 
 /* Estilos generales */
 body {
@@ -18,6 +23,18 @@ body {
 
 iframe {
   width: 100%; }
+
+.image-collage {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px; }
+
+.image-collage img {
+  width: 100%;
+  height: auto; }
+
+.bg-pink {
+  background-color: pink !important; }
 
 /*header*/
 header {
@@ -56,6 +73,9 @@ header {
     /* Color del logotipo */
     margin-right: 10px;
     /* Espacio entre la letra y los botones */ }
+
+.bg-orange {
+  background-color: #F28157 !important; }
 
 section {
   padding: 30px 0;

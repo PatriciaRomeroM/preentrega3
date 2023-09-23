@@ -1,12 +1,20 @@
+
 body,
 h1,
-h2,
 h3,
 p,
 ul,
 li {
     margin: 0;
     padding: 0;
+}
+
+.titulo {
+    font-size: 20px;
+}
+
+h2 {
+    margin-left: 30px;
 }
 
 /* Estilos generales */
@@ -20,6 +28,23 @@ body {
 iframe {
     width: 100%;
 }
+
+.image-collage {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+}
+
+.image-collage img {
+    width: 100%;
+    height: auto;
+}
+
+.bg-pink {
+    background-color: pink !important;
+}
+
+
 
 
 
